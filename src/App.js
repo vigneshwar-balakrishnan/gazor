@@ -1,13 +1,19 @@
 import React, { Component } from 'react';
+import Header from './components/header';
+import Footer from './components/footer';
+import Gallery from './components/pages/gallery';
+import Overview from './components/pages/overview'
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Gazor</h1>
-        </header>
+        <Header className="App-header"/>
+        <Overview />
+      
+        <Footer />
+
       </div>
     );
   }

@@ -4,7 +4,7 @@ class Header extends Component{
     render(){
         return(
             <header className="App-header" >
-                <h1>Header</h1>
+                <h1>Gazor</h1>
             </header>
 
         )
